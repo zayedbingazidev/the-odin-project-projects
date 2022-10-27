@@ -1,0 +1,222 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html, body {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1369px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 2rem 0rem;
+}
+
+header .logo, header ul {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+    
+}
+
+nav .logo {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 1rem;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+
+.banner h1, .banner p {
+    margin: 0;
+    width: 80%;
+}
+
+.banner .text-area {
+    flex: 1 1 0;
+}
+
+.banner .image {
+    flex: 1 1 0;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: -1px 11px 34px -24px #3881f69f;
+    -webkit-box-shadow: -1px 11px 34px -24px #3881f69f;
+    -moz-box-shadow: -1px 11px 34px -24px #3881f69f;
+    height: 350px;
+}
+
+.text-area h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.text-area p {
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    font-size: 1.125rem;
+    padding: 0.75rem 3rem;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+section {
+    width: 100%;
+    padding: 2rem 0;
+    
+}
+
+section h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 4rem;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 6rem;
+    padding: 0rem 7rem;
+
+}
+
+.card {
+    /* flex: 1 1 0; */
+}
+
+.card .image {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.card .image img{
+    width: 100%;
+    height: auto;
+
+}
+
+
+.card p {
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+section.quote-section {
+    background-color: #E5E7EB;
+    padding: 6rem 0rem;
+    
+}
+
+section.quote-section .container {
+
+}
+section em {
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1.25;
+    display: block;
+    padding: 0rem 7rem;
+
+}
+
+cite {
+    display: block;
+    text-align: right;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    padding: 0rem 7rem;
+
+}
+
+section.cot-section {
+    padding: 6rem 0;
+}
+
+section.cot-section .container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    gap: 18rem;
+    padding: 2rem 0;
+    border-radius: 10px;
+
+    
+}
+
+section.cot-section .container {
+    /* padding: 0rem 5rem; */
+
+}
+
+section.cot-section .container > .text-area h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+section.cot-section .container > button{
+    background-color: white;
+    color: #3882F6;
+
+}
+
+footer {
+    background-color: #1F2937;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+    color: white;
+    padding: 1rem 0;
+}
+
+
+
