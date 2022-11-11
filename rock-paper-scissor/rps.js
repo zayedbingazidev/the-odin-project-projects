@@ -1,3 +1,5 @@
+// Rock Paper Scissors consle game
+
 function getComputerChoice() {
 
     let choice = ['Rock', 'Paper', 'Scissors'];
